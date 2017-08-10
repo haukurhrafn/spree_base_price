@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_base_price'
   s.version     = '3.1'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'This gem adds a base price to your product'
+  s.description = 'It\'s required in some countries in Europe, to show a price calculated for a base amount (e.g. 1 kilogramm) for a better comparison.'
   s.required_ruby_version = '>= 1.9.3'
 
   s.author    = 'Andreas Ofner'
