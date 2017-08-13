@@ -1,6 +1,6 @@
 Deface::Override.new(:virtual_path => 'spree/admin/products/_form',
 	:name => 'add_base_price_to_product_edit',
-	:insert_after => "erb[loud]:contains('data-hook :admin_product_form_price')",
+	:insert_after => "[data-hook='admin_product_form_price'], #admin_product_form_price[data-hook]",
 	:text => "
 		<div data-hook='admin_product_form_cost_price' class='alpha two columns'>
 			<%= f.field_container :base_price, class: ['form-group'] do %>
