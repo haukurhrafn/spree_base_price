@@ -1,6 +1,6 @@
 module Spree
 	Product.class_eval do
-		delegate :master, :fill_weight
-		delegate :master, :base_unit
+		delegate :fill_weight to :master
+		delegate :base_unit to :master
 	end
 end
